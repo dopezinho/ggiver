@@ -1,0 +1,485 @@
+/*  IMPORT  */
+
+/* Open Sans: font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+/* Roboto: font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Source Sans Pro: font-family: 'Source Sans Pro', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*  CSS RESET  */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* CSSZIN  */
+
+header {
+	align-items: center;
+	background-color: #dbe5e3;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+/*  NAVBAR  */
+
+nav {
+	align-items: center;
+    background-color: #dbe5e3;
+	display: flex;
+	flex-direction: row;
+    height: 10vh;
+	justify-content: flex-end;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	z-index: 10000;
+}
+
+nav a {	
+	cursor: pointer;
+	color: #0b5209;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2.5vh;
+	font-weight: 700;
+	margin: 1vh;
+	padding: 1vh;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #ea730b;
+}
+
+.logo {
+	height: 8vh;
+	position: absolute;
+	left: 3%;
+}
+
+nav h2 {
+	color: #0b5209;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 3vh;
+	left: 7%;
+	position: absolute;
+	text-transform: uppercase;
+	top: 20%;
+}
+
+nav h3 {
+	color: #0b5209;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2vh;
+	left: 7%;
+	position: absolute;
+	text-transform: uppercase;
+	top: 50%;
+}
+
+ul {
+    align-items: center;
+    display: flex;
+	font-size: 3vh;
+	font-weight: 600;
+	justify-content: flex-end;
+	list-style-type: none;
+	margin-right: 7vh;
+}
+
+li {
+    margin: 0 2vh;
+}
+
+/*  THE BRAND  */
+
+.theBrand {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+.theBrandBanner {
+	align-items: center;
+	background-color: #0f2a0ae5;
+	background-image: url(/assets/bg.png);
+	background-position: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 4vh 4vh;
+	text-align: center;
+	width: 90%;
+}
+
+.theBrandText {
+	align-items: center;
+	background-color: #021c06d9;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 10vh;
+	padding: 2vh 4vh;
+	text-align: center;
+}
+
+.circles {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.circle1 {
+	background-color: #0b5209aa;
+	border-radius: 50%;
+	height: 5vh;
+	width: 5vh;
+}
+
+.circle2 {
+	background-color: #0b5209aa;
+	border-radius: 50%;
+	height: 5vh;
+	margin-left: -2vh;
+	width: 5vh;
+}
+
+.circle3 {
+	background-color: #0b5209aa;
+	border-radius: 50%;
+	height: 5vh;
+	margin-left: -2vh;
+	width: 5vh;
+}
+
+.theBrandBanner h2 {	
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 6vh;
+	letter-spacing: 1.5vh;
+	text-transform: uppercase;
+}
+
+.theBrandContainer {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5vh;
+	max-width: 90%;
+}
+
+.brandImg {
+	height: 60vh;
+	filter: brightness(70%);
+}
+
+.textBg {
+	align-items: center;
+	background-image: url(/assets/blueg.jpg);
+	background-position: center;
+	display: flex;
+	height: 99%;
+	justify-content: center;
+	margin-left: 2vh;
+}
+
+.theBrandContainerText {
+	align-items: center;
+	background-color: #02131cd4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 4vh;
+	text-align: center;
+	width: 80%;
+}
+
+.theBrandContainerText h2 {
+	color: #fafafa;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 6vh;
+	font-weight: bold;
+	letter-spacing: 0.5vh;
+	margin-bottom: 4vh;
+	text-align: center;
+}
+
+.theBrandContainerText h4 {
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3vh;
+	font-weight: 300;
+	letter-spacing: 0.5vh;
+	text-align: center;
+	max-width: 80%;
+}
+
+/*  ABOUT US  */
+
+main {
+	background-color: #dbe5e3;
+}
+
+.aboutUs {
+	height: 100vh;
+}
+
+.aboutUsContainer {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 10vh;
+}
+
+.aboutUsTitle {
+	color: #0b5209;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 8vh;
+	font-weight: bold;
+	margin-bottom: 5vh;
+}
+
+.aboutUsPrompt {
+    color: #0f6b0d;
+    text-align: center;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 4vh;
+	font-weight: 300;
+	max-width: 80%;
+	margin-bottom: 5vh;
+}
+
+.memberPhotos {
+	align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.memberPhoto {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.profileP {
+	height: 30vh;
+}
+
+.memberText {
+	max-width: 60%;
+}
+
+.memberText h3 {
+	font-size: 4vh;
+	font-weight: bold;
+}
+
+.memberText p {
+	font-size: 3vh;
+}
+
+/*  BECOMING REALITY  */
+
+.reality {
+	align-items: center;
+	background-color: #b3dfde;
+	background-image: url(/assets/bg.png);
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	justify-content: center;
+}
+
+.realityText {
+	padding: 4vh 2vh;
+	text-align: center;
+	width: 50%;
+}
+
+.realityText h2 {
+	background-color: #2cc3c1e1;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 6vh;
+	font-weight: bold;
+	margin-bottom: 5vh;
+	padding: 2vh 0;
+}
+
+.realityText p {
+	background-color: #2cc3c1e1;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 4vh;
+	font-weight: 300;
+	padding: 4vh;
+}
+
+.realityContainer {
+	padding: 2vh;
+}
+
+.realityImg {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: 5vh;
+}
+
+.realityImg img {
+	filter: brightness(90%);
+	height: 50vh;
+	opacity: 95%;
+}
+
+/*  CONTACT US  */
+
+
+footer {
+	background-color: #dbe5e3;
+    width: 100%;
+    bottom: 0;
+}
+
+.foot {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+	justify-content: center;
+
+}
+
+.footHead h1 {
+	color: #0b5209;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 8vh;
+	font-weight: bold;
+	margin-bottom: 8vh;
+}
+
+.footInfo {
+	align-items: center;
+	color: #0b5209;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 70%;
+}
+
+.footInfo h2 {
+	color: #0b5209;
+	font-family: 'Roboto', sans-serif;
+	font-size: 4vh;
+	font-weight: bold;
+	margin-bottom: 4vh;
+}
+
+.footInfo h4 {
+	color: #0b5209;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3vh;
+	font-weight: 300;
+	margin-bottom: 2vh;
+}
+
+.footContact h4:hover {
+	color: #974b08;
+	cursor: pointer;
+}
+
+.socialIcons {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.socialIcons svg:hover {
+	cursor: pointer;
+	fill: #974b08;
+}
+
+.footOH {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.monfi, .sat, .sun {
+	align-items: center;
+	color: #0f6b0d;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 35vh;
+}
+
+.chart__container {
+    padding: 30px;
+    margin: 30px;
+    background-color: #237bff;
+    width: 700px;
+  display: inline-block;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.7);
+  border: 2px solid #5a9cff;
+}
+.row {
+    width: 900px;
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+    margin: auto auto;
+}
+
+/*  MEDIA KIT  */
+
+*,
+*::selection {  
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/*  SCROLLBAR  */
+
+::-webkit-scrollbar {
+	width: 1.5vh;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background-color: #dbe5e3;
+	box-shadow: inset 0 0 5px #ea730b;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background-color: #66636358;
+  }
