@@ -461,14 +461,6 @@ footer {
     margin: auto auto;
 }
 
-/*  MEDIA KIT  */
-
-*,
-*::selection {  
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
-}
-
 /*  SCROLLBAR  */
 
 ::-webkit-scrollbar {
