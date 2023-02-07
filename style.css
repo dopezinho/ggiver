@@ -348,6 +348,7 @@ main {
 }
 
 .vision {
+	margin-bottom: 4vh;
 	transform: translateX(-40vh);
 	z-index: 3;
 }
